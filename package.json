@@ -1,6 +1,6 @@
 {
   "name": "@henrryrocket/secure-password",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Generador de contraseñas seguras y aleatorias para Node.js",
   "main": "index.js",
   "type": "module",
