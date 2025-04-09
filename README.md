@@ -8,6 +8,16 @@ Un generador de contraseñas seguras y aleatorias para Node.js que utiliza el m�
 npm install @henrryrocket/secure-password
 ```
 
+## Configuración
+
+Para usar este paquete, necesitas configurar tu proyecto para usar ES Modules. Agrega la siguiente línea a tu `package.json`:
+
+```json
+{
+  "type": "module"
+}
+```
+
 ## Uso
 
 ```javascript
