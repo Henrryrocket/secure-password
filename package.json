@@ -1,5 +1,5 @@
 {
-  "name": "secure-password",
+  "name": "secure-password-hr",
   "version": "1.0.0",
   "description": "Generador de contraseñas seguras y aleatorias para Node.js",
   "main": "index.js",
