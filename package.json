@@ -1,0 +1,37 @@
+{
+  "name": "secure-password",
+  "version": "1.0.0",
+  "description": "Generador de contraseñas seguras y aleatorias para Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "password",
+    "generator",
+    "security",
+    "crypto",
+    "random",
+    "contraseña",
+    "password-generator",
+    "password-generator-nodejs",
+    "password-generator-node",
+    "password-generator-nodejs-spanish",
+    "password-generator-node-spanish",
+    "password-generator-nodejs-español",
+    "password-generator-node-español",
+    "password-generator-nodejs-es",
+    "password-generator-node-es",
+    "password-generator-nodejs-español"
+  ],
+  "author": "Enrrique Parada <henrryrocket>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henrryrocket/secure-password.git"
+  },
+  "bugs": {
+    "url": "https://github.com/henrryrocket/secure-password/issues"
+  },
+  "homepage": "https://github.com/henrryrocket/secure-password#readme"
+}
