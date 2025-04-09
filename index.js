@@ -1,4 +1,4 @@
-const crypto = require('crypto');
+import crypto from 'crypto';
 
 /**
  * Genera una contraseña segura y aleatoria
@@ -10,7 +10,7 @@ const crypto = require('crypto');
  * @param {boolean} [options.includeSymbols=true] - Incluir símbolos
  * @returns {string} Contraseña generada
  */
-function generatePassword(options = {}) {
+export function generatePassword(options = {}) {
   const {
     length = 16,
     includeUppercase = true,
@@ -45,6 +45,6 @@ function generatePassword(options = {}) {
   return password;
 }
 
-module.exports = {
+export default {
   generatePassword
 }; 

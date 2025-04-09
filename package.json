@@ -1,12 +1,14 @@
 {
-  "name": "secure-password",
-  "version": "1.0.0",
+  "name": "@henrryrocket/secure-password",
+  "version": "1.0.1",
   "description": "Generador de contraseñas seguras y aleatorias para Node.js",
   "main": "index.js",
-  "type": "commonjs",
+  "type": "module",
   "files": [
-    "index.js",
-    "README.md"
+    "*",
+    "!.git",
+    "!.gitignore",
+    "!node_modules"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +20,7 @@
     "crypto",
     "random"
   ],
-  "author": "",
+  "author": "henrryrocket",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -27,5 +29,8 @@
   "bugs": {
     "url": "https://github.com/henrryrocket/secure-password/issues"
   },
-  "homepage": "https://github.com/henrryrocket/secure-password#readme"
+  "homepage": "https://github.com/henrryrocket/secure-password#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }

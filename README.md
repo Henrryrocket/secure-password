@@ -5,13 +5,14 @@ Un generador de contraseñas seguras y aleatorias para Node.js que utiliza el m�
 ## Instalación
 
 ```bash
-npm install secure-password
+npm install @henrryrocket/secure-password
 ```
 
 ## Uso
 
 ```javascript
-const { generatePassword } = require("secure-password");
+// Usando ES Modules
+import { generatePassword } from "@henrryrocket/secure-password";
 
 // Generar una contraseña con la configuración por defecto (16 caracteres)
 const password = generatePassword();
@@ -44,7 +45,8 @@ El generador de contraseñas acepta las siguientes opciones:
 - Permite personalizar la longitud y los tipos de caracteres incluidos
 - Incluye documentación JSDoc para mejor integración con IDEs
 - No tiene dependencias externas
+- Compatible con ES Modules
 
 ## Licencia
 
-MIT
+ISC
